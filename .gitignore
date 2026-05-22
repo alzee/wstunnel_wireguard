@@ -3,3 +3,4 @@
 macOS/wstunnel
 *.tar.gz
 *.zip
+*.conf

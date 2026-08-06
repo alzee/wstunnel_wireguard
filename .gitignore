@@ -1,6 +1,6 @@
 *.msi
 *.exe
-macOS/wstunnel
+*/wstunnel
 *.tar.gz
 *.zip
 *.conf

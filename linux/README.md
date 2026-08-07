@@ -2,5 +2,5 @@
 2. 复制`wstunnel-client.service`至`/etc/systemd/system/`: `sudo cp wstunnel-client.service /etc/systemd/system/`
 3. 启动`wstunnel`: `sudo systemctl enable --now wstunnel-client.service`
 4. 安装`wireguard`: `sudo apt install wireguard-tools`
-5. 复制配置文件至`/etc/wireguard/`: `sudo cp conf/ai-huawei-client-0.conf /etc/wireguard/`
-6. 启动`wireguard`: `sudo systemctl enable --now wg-quick@ai-huawei-client-0.service`
+5. 复制配置文件至`/etc/wireguard/`: `sudo cp conf/xxx.conf /etc/wireguard/`
+6. 启动`wireguard`: `sudo systemctl enable --now wg-quick@xxx.service`

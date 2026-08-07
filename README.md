@@ -1,9 +1,11 @@
 ### 目录结构
+```
 .
 ├── conf/   # wireguard 配置文件
 ├── linux/
 ├── macOS/
 └── win/
+```
 
 * `conf/`下为`wireguard`通用配置文件
 * `linux/` `macos/` `win/`下分别为系统对应二进制文件及配置
